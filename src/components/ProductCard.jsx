@@ -31,9 +31,9 @@ const ProductCard = ({ product }) => {
         </div>
         <div className="space-y-2">
           <a rel="noopener noreferrer" href="/" className="block">
-            <hFacere className="text-xl font-semibold dark:text-violet-400">
+            <div className="text-xl font-semibold dark:text-violet-400">
               {title}
-            </hFacere>
+            </div>
           </a>
           <p className="leading-snug dark:text-gray-400">{description}</p>
         </div>

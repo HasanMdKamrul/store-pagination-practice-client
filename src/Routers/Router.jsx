@@ -5,7 +5,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    loader: () => fetch(`http://localhost:15000/products`),
   },
 ]);
 
